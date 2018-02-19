@@ -1,0 +1,26 @@
+{
+    "name": "massy/math",
+    "description": "Test package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "massimiliano.salerno",
+            "email": "massimiliano.salerno@liveboxcloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" :{
+            "Massy\\Math" : "src"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": {
+                "Massy\\Math\\MathServiceProvider"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
